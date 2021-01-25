@@ -1,0 +1,106 @@
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1.0,
+  width=device-width" />
+<title>to Sort </title>
+<link rel= "shortcut icon" href= "images/file.png"/>
+<link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+
+<link rel="stylesheet" href="stylefile.css">
+</head>
+<div>
+
+<body class="bkgfile">
+  <div >
+    <img class="logo" src="images/pcox.png">
+  </div>
+  <header>
+
+    <h1>
+    Filing Cabinet</h1>
+  <p class="header"><strong>Organization is crucial to the human psyche. </strong></p></header>
+  <button class= "collapsible"> Navigation</button>
+  <div class="content">
+    <p><nav class="sidenav">
+      <li><a href= "index.html" class="navStory" >Outside</a></li>
+      <li><a href= "Workshop.html" class="navWork" >Workshop</a></li>
+      <li><a href= "Backyard.html " class="navBY" >Backyard</a></li>
+      <li><a href= "dreams.html" class="navdreams" >Dreams</a></li>
+      <li><a href= "story.html" class="navStory" > My Story</a></li>
+    </nav><p>
+  </div>
+  <h2>Projects</h2>
+
+  <p>Welcome to the interatve page where you can view my portfolio of projects I have done this year on the World Wide Web.</p>
+
+
+  <p>Projects:</p>
+  <button class="collapsible"> Story </button>
+  <div class="content">
+    <p class="navStory"> <a href="http://pcoxproductions.com/story" target="_blank">HTML Story</a>  </p>
+  </div>
+  <button class="collapsible" onclick="move()">Responsive </button>
+  <div class="content">
+
+
+      <div id="myProgress">
+        <div id="myBar" class="response">   <a href="http://pcoxproductions.com/responsivestory" target="_blank"> Interactive Story</a>
+        </p></div>
+      </div>
+
+
+  </div>
+  <button class="collapsible">Bootstrap Bill</button>
+  <div class="content">
+    <p class="navStory"><a href="http://pcoxproductions.com/BreakoutBallPark/" target="_blank"> BreakoutBallPark</a></p>
+  </div><div>
+   <p class="imovie">I Movie</p></div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VTRpisIAZxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+
+  function move() {
+    var elem = document.getElementById("myBar");
+    var width = 1;
+    var id = setInterval(frame, 0);
+    function frame() {
+      if (width >= 100) {
+
+        clearInterval(id);
+
+      } else {
+        width++;
+        elem.style.width = width + '%';
+      }
+
+      }
+    }
+
+
+  </script>
+
+</body>
+
+<footer>
+  Date Modified: 3/8/2019<br></br>
+  pcoxproductions
+</footer>
+</div>
+</html>

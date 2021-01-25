@@ -1,0 +1,424 @@
+body {
+color: #000;
+margin: 10px;
+font-family: 'Armata', sans-serif;
+font-size: 16px;
+padding-left: 10%;
+padding-right: 10%;
+background-color: #DB4437;
+}
+
+
+.bkgStory{
+	background-color: #4285F4;
+
+}
+
+.bkgBackyard{
+	background-color: #F4B400;
+
+}
+
+.bkgWorkshop{
+	background-color: #0F9D58;
+
+}
+.bkgDreams{
+
+
+}
+
+a {color: #0F9D58; font-family:'Armata', sans-serif; text-decoration: none}
+a:visited {color: #DB4437; text-decoration: none}
+a:active {color: #DB4437; text-decoration: none}
+a:hover {color: #4285F4; text-decoration: none}
+
+
+h1
+{
+font-family: 'Armata', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+margin: 0px;
+padding: 0px 10px 5px 10px;
+text-align: left;
+}
+.h1{
+	padding: 20px;
+	padding-bottom: 20px;
+	margin: 0px 0px -10px -20px;
+
+}
+
+
+
+
+h2
+{
+font-family: 'Armata', sans-serif;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+padding-left: 10px;
+text-align: left;
+}
+
+
+/* If you'd like to use h3, h4, h5, etc., use the code below, and describe them accordingly. Should contain the same properties as h1 or h2 */
+h3
+{
+
+}
+
+
+p
+{
+font-family: 'Armata', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+text-decoration: none;
+margin-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: left;
+}
+p.header{
+	margin-left: 0px;
+	margin-top: 1%;
+}
+table {
+
+font-family: 'Armata', sans-serif;
+font-size: 18px;
+text-align: left;
+}
+
+table, td, th {
+
+	border:5; width:inherit;
+	align: center;
+	padding:10px;
+	border-collapse: collapse;
+}
+
+th {
+    color: #000000;
+}
+
+table thead {
+	background-color: #e1e1e1;
+}
+
+table tbody tr {
+border-bottom: 2px groove #DB4437;
+
+}
+
+.tr {
+	border-bottom: 5px inset #0F9D58;
+}
+
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+      /*  display: block;*/
+    }
+
+header {
+padding-left: 1%;
+padding-right: 1%;
+padding-top: 1%;
+padding-bottom: 1%;
+
+border-top: 10px solid white;
+width: 98%;
+height:flex;
+background-color: #0F9D58;
+color:white;
+}
+
+.Header1{
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+	border-top: 10px solid white;
+	width: 98%;
+	height:10%;
+	font-weight: bold;
+	background-color: #DB4437;
+}
+
+.logo {
+
+	padding:  2%;
+	margin-left: 37.5%;
+	width: 20%;
+	height: auto;
+
+
+}
+
+div.logo{
+	max-height: 10%;
+
+}
+
+nav {
+
+position: static;
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 1px;
+padding-top:3.75%;
+width: 80%;
+height: 7.5%;
+margin: 0px;
+background-color: #4285F4;
+border-top: 5px solid white;
+}
+.navStory{
+	background-color: #DB4437;
+
+}
+.navBY{
+	background-color: #DB4437;
+}
+.navWork{
+	background-color: #DB4437;
+}
+.navdreams{
+	background-color: #DB4437;
+}
+
+
+
+#section {
+position: relative;
+width: 910px;
+height: auto;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+border-top: 2px solid white;
+padding: 0 30px 0 10px;
+}
+
+img{
+height: auto times;
+width: 49%;
+/*width:283.5px; height:504px;
+width:672px; height:504px;
+width:375px; height:667px;*/
+}
+
+iframe {
+	width:100%; height: 80%;
+	align: left;
+	position: inherit;
+
+}
+
+div {
+	margin: 0px;
+	background-color: #CCCCCC;
+}
+.contact{
+	background-color: #323232;
+	color: white;
+	font-size: 16px;
+}
+
+footer {
+
+width: 98%;
+height: 5%;
+background-color: #000;
+
+font-size: 7px;
+
+padding: 1% 1% 1% 1%;
+color: #FFF;
+}
+
+@media only screen and (max-width: 600px) {
+
+  [class *="col-"] {
+    width: 100%;
+  }
+iframe{
+	height: 30%;
+	width: 100%;
+}
+	.Storynav {
+
+	  background-color: #4285F4; /*blue*/
+		color: #F4B400;
+		z-index: 5;
+	}
+
+	.Workshopnav{
+		right: 50%;
+	  background-color: #0F9D58; /*blue*/
+z-index: 4;
+
+	}
+
+	.Backyardnav {
+		right:37.5%;
+	  background-color: #F4B400; /*yello*/
+		z-index: 3;
+	}
+
+	.dreamsnav {
+		right:25%;
+	  background-color: #DB4437; /*red*/
+		z-index: 2;
+	}
+
+	.Outsidenav {
+		right: 12.5%;
+		background-color: #DB3427; /*green*/
+		z-index: 1;
+	}
+	#mySidenav a {
+	  position: fixed; /* Position them relative to the browser window */
+	  bottom: 0; /* Position them outside of the screen */
+	  transition: 0.3s; /* Add transition on hover */
+	  padding:2.5%; /* 15px padding */
+	  /* Set a specific width */
+	  text-decoration: none; /* Remove underline */
+	  font-size: 12px; /* Increase font size */
+			text-align: center;
+		/*margin-left: 20px;*/
+	  color: white; /* White text color */
+
+	  border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
+		 box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+	}
+
+	#mySidenav a:hover {
+	   /* On mouse-over, make the elements appear as they should */
+		 box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+		 padding-bottom: 10%;
+
+
+	}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+  [class *="col-"] {
+    width: 100%;
+  }
+	.Storynav {
+	  top: 20px;
+	  background-color: #4285F4; /*blue*/
+		color: #F4B400;
+	}
+
+
+	.Workshopnav {
+		top: 80px;
+		background-color: #0F9D58; /*blue*/
+			color: inherit;
+
+
+
+	}
+
+	.filenav{
+		top: 140px;
+
+		background-color: #9a855b; /*blue*/
+			color: black;
+
+	}
+
+	.Backyardnav {
+	  top: 140px;
+	  background-color: #F4B400; /*yello*/
+	}
+
+	.dreamsnav {
+	  top: 200px;
+	  background-color: #DB4437 /*red*/
+	}
+
+	.Outsidenav {
+		top:260px;
+		background-color: #DB4437; /*green*/
+	}
+
+
+	#mySidenav a {
+	  position: fixed; /* Position them relative to the browser window */
+	  left: -15%; /* Position them outside of the screen */
+	  transition: 0.3s; /* Add transition on hover */
+	  padding: 10px; /* 15px padding */
+	  width: 20%; /* Set a specific width */
+	  text-decoration: none; /* Remove underline */
+	  font-size: 16px; /* Increase font size */
+			text-align: right;
+		margin-left: 20px;
+	  color: white; /* White text color */
+	  border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
+		 box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+	}
+
+	#mySidenav a:hover {
+left:-10%;
+	 padding-left:15%; /* On mouse-over, make the elements appear as they should */
+		 box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+
+	}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  [class *="col-"] {
+    width: 100%;
+  }
+	#mySidenav a {
+	  position: fixed; /* Position them relative to the browser window */
+	  left: -15%; /* Position them outside of the screen */
+	  transition: 0.3s; /* Add transition on hover */
+	  padding: 15px; /* 15px padding */
+	  width: 20%; /* Set a specific width */
+	  text-decoration: none; /* Remove underline */
+	  font-size: 16px; /* Increase font size */
+			text-align: right;
+		margin-left: 20px;
+	  color: white; /* White text color */
+	  border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
+		 box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+	}
+
+	#mySidenav a:hover {
+	  left: -10%; /* On mouse-over, make the elements appear as they should */
+		 box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+		 padding-left: 15%;
+
+	}
+
+ }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .col-1 {width: 49%;}
+    .col-2 {width: 49%;}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
